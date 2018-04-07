@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>  
-        <title>Connor's first website"</title>
-                <style type="text/css">
+    <head>
+        <title>Connor's webites</title>
+        <style type="text/css">
             body { 
                 background: rgb(125, 198, 205);
                 color: rgb(45, 45, 45);
@@ -49,41 +49,46 @@
                 flex: 1;
                 padding: 15px;
             }
+            /* portfolio styles */
+            #portfolio {
+                list-style-type: none;
+                padding-left: 0;
+            }
+            #portfolio li {
+                background: #fff;
+                padding: 10px;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+            #portfolio li:hover {
+                background: #eee;
+            }
+            #portfolio a {
+                text-decoration: none;
+                color: #454545;
+            }
         </style>
     </head>
     
-    <body> 
+    <body>
+        <nav>
+            <header>Connor's websites</header>
+            <ul>
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+                <div> class="content"
+                    <h1>Portfolio</h1>
+                    <ul id="portfolio">
+                    </ul>
+            </div>
+        </main>
         <div id="all-contents">
-            <nav>
-                <header>Connor's first website</header>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html"></a></li>
-                </ul>
-            </nav>
-            
-            <main>
-                <div class="sidebar">
-                    <img src="https://res.cloudinary.com/teepublic/image/private/s--K0Fe2MpY--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1469125436/production/designs/594881_1.jpg">
-                </div> 
-                
-                
-                <div class="content">
-                    <header="Justin Connor"> 
-                    </header>
-                    <p="Student at spark">
-                        <section class="interests">
-                            <header>Interests</header>
-                            <ul>
-                                <li>Thing1</li>
-                                <li>Thing2</li>
-                                <li>Thing3</li>
-                            </ul>
-                        </section>
-                        
-                    </p>
-                </div>
-            </main>
+        
         </div>
     </body>
 </html>
